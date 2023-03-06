@@ -2,7 +2,7 @@
 
 ChessTree is a ChessGUI project that aims to have a different representation of notation to be able to contain large amounts of variation and allow ease of movement between variations.  
 
-The usual way notation is implemented with different moves is by using brackets and large amounts of variations can be lost making it becomes unclear what variations have been analyzed 
+The usual way notation is implemented with different moves is by using brackets causing large amounts of variations to be lost in the text making it become unclear what variations have been analyzed 
 
 In ChessTree the aim is to alleviate this by showing the moves in a tree notation the nodes being your moves and the edges being the other sides moves. Currently ChessTree supports seeing 1 move ahead and behind without updating the position but we aim to allow users to extend how far visually the tree goes. 
 
