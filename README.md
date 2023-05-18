@@ -6,8 +6,7 @@ The usual way notation is implemented with different moves is by using brackets 
 
 In ChessTree the aim is to alleviate this by showing the moves in a tree notation the nodes being your moves and the edges being the other sides moves. Currently ChessTree supports seeing 1 move ahead and behind without updating the position but we aim to allow users to extend how far visually the tree goes. 
 
-![Capture](https://user-images.githubusercontent.com/43449969/230782337-4593a04b-83a1-4586-8f58-fc7ecb6928ab.PNG)
-
+![demoPhoto](https://github.com/PatrikKelemen/ChessTree/assets/43449969/0faa0326-f02c-452d-a29f-092ecad6c2a4)
 
 With the ChessTree being visualized in a tree this allows us to remove clutter as ChessTree has transpositions go to the same Node as they are the same position. This will decrease the storage size as the outcome of the position is the same if a transposition has occurred and it will visually reduce the size of the data as well. 
 
